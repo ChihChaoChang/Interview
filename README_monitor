@@ -1,0 +1,25 @@
+Installation Python module on Linux
+easy_install --upgrade setuptools
+easy_install email
+
+
+I use the Ubuntu 16.04 version and Python 3.5.2.
+
+
+I use os.walk() to utilizes generators to recursively walk through the file system. 
+And then generate all filenames in a directory tree that match a *.log file. 
+gen_cat function concatenate items from one or more source into a single sequence of items.
+
+I set my email addresses as default.
+Once the program parsing "error" ,then it will send email from my gmail to my school email account.
+It needs to enter the password. 
+The default email could be changed if I have spefic target: who I should send, what email address should I use. 
+It would need not asking user to enter password by stdin everytime. 
+  
+
+Execute:
+
+python3 monitor.py 
+
+if there is error in log file then the program will require you to enter the password or each warning.
+
